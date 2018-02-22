@@ -1,5 +1,5 @@
-# saveSession-ARkit-CoreML
-A project to show the possibility to save and load session in ARkit using CoreML, the end goal is to make a guided tours app
+# saveSession-ARKit-CoreML
+A project to show the possibility to save and load session in ARKit using CoreML, the end goal is to make a guided tours app
 the instructons, the code and a video showing how the app works will be uploaded shortly
 
 [Demo Video - on Youtube](will be uploaded shortly)
@@ -28,4 +28,10 @@ If you're having issues, double check that the model is part of a target [(sourc
 
 ## Footnotes
 
-will be uploaded shortly
+The Objects are the real objects seen by the camera
+The anchor is an object that you set as the reference point the reference system in every sesson of ARKit
+The nodes are arkit nodes composed by a point and a the name of an object
+You can change the anchor using the change anchor button but the nodes will be resetted
+
+The precision is given by by the precision of the compass, the more still you are the better is the precision
+Is planned the automatic addiction of multiple anchors to improve precision
