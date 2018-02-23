@@ -1,8 +1,13 @@
 # saveSession-ARKit-CoreML
-A project to show the possibility to save and load session in ARKit using CoreML, the end goal is to make a guided tours app
-the instructons, the code and a video showing how the app works will be uploaded shortly
+ArKit is Apple's platform for Augmented Reality, it can do amazing stuffs but it couldn't be used to add layers to the existing word, for example informations inside a museum because the position of the virtual objects is given by the GPS coords of the phone, thus the result is in the order of meters.
 
-[Demo Video - on Youtube](will be uploaded shortly)
+But, as shown in the video, using machine learning is possible to get a more precise position, in the order of centemeters, even where the GPS has no signal
+
+[Demo Video - on Youtube](https://youtu.be/Q-FoqKHHUQw)
+
+The aim of this project is to make an aumented reality apps in which every user can add and share layers to the real word, everywhere and in the most easy way possible.
+
+If you want to participate, express your opinion of the project or just wanna talk contact me at alexlaconca@gmail.com
 
 Based on [CoreML-in-ARKit by hanleyweng](https://github.com/hanleyweng/CoreML-in-ARKit)
 
@@ -33,5 +38,4 @@ The anchor is an object that you set as the reference point the reference system
 The nodes are arkit nodes composed by a point and a the name of an object
 You can change the anchor using the change anchor button but the nodes will be resetted
 
-The precision is given by by the precision of the compass, the more still you are the better is the precision
-Is planned the automatic addiction of multiple anchors to improve precision
+Right now the orientation precision is given by by the precision of the compass, the more still you are the better the precision but it is planned the automatic addiction of multiple anchors to improve it
