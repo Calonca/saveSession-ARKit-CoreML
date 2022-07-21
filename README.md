@@ -1,13 +1,11 @@
 # saveSession-ARKit-CoreML
-ArKit is Apple's platform for Augmented Reality, it can do amazing stuffs but it couldn't be used to add layers to the existing word, for example informations inside a museum because the position of the virtual objects is given by the GPS coords of the phone, thus the result is in the order of meters.
+ArKit is Apple's framework for Augmented Reality. It can do amazing stuffs but it couldn't be used to add layers to the existing word, for example informations inside a museum because the position of the virtual objects is given by the GPS coords of the phone, thus the precision in the position of the objects is in the order of meters.
 
-But, as shown in the video, using machine learning is possible to get a more precise position, in the order of centemeters, even where the GPS has no signal
+But, as shown in the video, using machine learning is possible to get a more precise position, in the order of centemeters, even where the GPS has no signal.
 
 [Demo Video - on Youtube](https://youtu.be/Q-FoqKHHUQw)
 
 The aim of this project is to make an aumented reality apps in which every user can add and share layers to the real word, everywhere and in the most easy way possible.
-
-If you want to participate, express your opinion of the project or just wanna talk contact me at alexlaconca@gmail.com
 
 Based on [CoreML-in-ARKit by hanleyweng](https://github.com/hanleyweng/CoreML-in-ARKit)
 
